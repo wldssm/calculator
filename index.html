@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
+	<title>计算器</title>
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>-->
+	
+	<link type="text/css" rel="stylesheet" href="./css/style.css"/>
+	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"/></script>
+	<script type="text/javascript" src="./js/js.js"></script>
+	<script type="text/javascript" src="./js/calc.js"></script>
+</head>
+<body>
+	<div class="wrap"><!-- style="display:none;"-->
+		<span class="logo">王牌计算器</span>
+		<div class="input_field">
+			<div class="oper_str"><span class="calculus"></span><br/><span class="result">0</span></div><!--(4+5*6+(8*4))*(6+3)-->
+
+			<!--<embed src="http://f.51240.com/file/zaixianjisuanqi/jsq.swf?v=15050909" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="470" height="530">-->
+		</div><!--end input_field-->
+
+		<div class="push_btn_top">
+			<a href="javascript:void(0);" class="num lg">lg</a>
+			<a href="javascript:void(0);" class="num reagan">√X</a>
+			<a href="javascript:void(0);" class="num reagan"><sup>y</sup>√X</a>
+			<a href="javascript:void(0);" class="num square">X<sup>2</sup></a>
+			<a href="javascript:void(0);" class="num square">X<sup>y</sup></a>
+
+			<a href="javascript:void(0);" class="num bracket">(</a>
+			<a href="javascript:void(0);" class="num bracket">)</a>
+			<a href="javascript:void(0);" class="num mod">Mod</a>
+		</div><!--end push_btn_top-->
+		
+		<div class="push_btn_left">	
+			<a href="javascript:void(0);" class="num">1</a>
+			<a href="javascript:void(0);" class="num">2</a>
+			<a href="javascript:void(0);" class="num">3</a>
+			<a href="javascript:void(0);" class="num">4</a>
+			<a href="javascript:void(0);" class="num">5</a>
+			<a href="javascript:void(0);" class="num">6</a>
+			<a href="javascript:void(0);" class="num">7</a>
+			<a href="javascript:void(0);" class="num">8</a>
+			<a href="javascript:void(0);" class="num">9</a>
+			<a href="javascript:void(0);" class="num num_0">0</a>
+			<a href="javascript:void(0);" class="num">.</a>
+		</div><!--end push_btn-->
+		
+		<div class="push_btn_right first">
+			<a href="javascript:void(0);" class="num del">←</a>
+			<a href="javascript:void(0);" class="num">+</a>
+			<a href="javascript:void(0);" class="num calc">=</a>
+		</div>
+		<div class="push_btn_right two">
+			<a href="javascript:void(0);" class="num clean">C</a>
+			<a href="javascript:void(0);" class="num">/</a>
+			<a href="javascript:void(0);" class="num">*</a>
+			<a href="javascript:void(0);" class="num">-</a>
+		</div><!--end push_btn_right-->
+	</div><!--end wrap-->
+	
+	<script>
+		$(document).ready(function() {
+		});
+	</script>
+</body>
+</html>
